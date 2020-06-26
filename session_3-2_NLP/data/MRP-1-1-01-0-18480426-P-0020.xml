@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            <title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="1">Abteilung I</title>
+            <title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="020">Sitzung 20</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-04-26"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.acdh-dev.oeaw.ac.at/pages/volumes.html">https://mrp.acdh-dev.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z20.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">391</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-04-26"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; RdA. Pipitz; VS. Ficquelmont; anw. Pillersdorf, Krauß, Sommaruga, Zanini; BdE. Ficquelmont (29. 4.), Franz Karl (29. 4.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="chair">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8157">
+                     <surname>Zanini</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-29">29. 4.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-29">29. 4.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_20_1">Dank des Kaisers an die Wiener für das Begehen seines Geburtstages</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_20_2">Aufhebung der Robot in Galizien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_20_3">Anstellung des Baron Metzburg im Ministerium des Inneren</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_20_4">Konstitutionskundmachung in Brünn</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_20_5">Mißliche Lage der galizischen Gerichtsbehörden</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_20_6">Baldige Erledigung der galizischen Petition</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_20_7">Errichtung der Nationalgarde in galizischen Landgemeinden</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_20_8">Behandlung der Krakauer Deputation</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_20_9">Englische Schiffe in Triest; englische Erklärung über die Blockade von Venedig; Schutz österreichischer Schiffe durch eine große Seemacht</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_1_1_20_10">Die k. k. Reitschule als provisorisches Versammlungslokal des Reichstages</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="11">XI.</num>
+                  </label>
+                  <ref target="#top_1_1_20_11">Unzulässigkeit der Bekanntmachung des Kabinettsschreibens über das Bewahren von Amtsgeheimnissen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="12">XII.</num>
+                  </label>
+                  <ref target="#top_1_1_20_12">Vorstellung Johann Ludwig Freiherrn Dercsényis v. Dercsén gegen das Kabinettsschreiben über das Bewahren von Amtsgeheimnissen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="13">XIII.</num>
+                  </label>
+                  <ref target="#top_1_1_20_13">Rücktritt des Lemberger katholischen Erzbischofs</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="14">XIV.</num>
+                  </label>
+                  <ref target="#top_1_1_20_14">Rücktritt Graf Clemens Brandis' als Landeshauptmann von Tirol</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="15">XV.</num>
+                  </label>
+                  <ref target="#top_1_1_20_15">Pferdeankauf für das Isonzokorps</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480426-P-0020" ana="a1-1848_z20">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z20.pdf">
+               <title type="num">Nr. 20</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-04-26">26. April 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; RdA. Pipitz; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Ficquelmont; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Pillersdorf, Krauß, Sommaruga, Zanini; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Ficquelmont (29. 4.), Franz Karl (29. 4.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">391</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates vom <date when="1848-04-26">26. April 1848</date>.</head>
+               <div type="agenda_item" xml:id="top_1_1_20_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Dank des Kaisers an die Wiener für das Begehen seines Geburtstages</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> eröffnete, es sei ihm soeben durch den Oberstkämmerer der Wunsch Ew. Majestät bekannt gemacht worden, der Bevölkerung Wiens für die gestern gegebenen Beweise von Treue und Anhänglichkeit, insbesondere der Nationalgarde und dem juridisch-politischen Leseverein Ah. Ihren Dank auszudrücken<note type="footnote" n="1">Dieser Wunsch muß mündlich weitergegeben worden sein; in den Akten des Oberst-Kämmerer-Amtes im <quote>HHSTA.</quote> ist kein Hinweis darauf zu finden.</note>. Zu diesem Ende habe er sogleich den angeschlossenen Entwurf eines Ah. Kabinettschreibens vorbereitet, welcher mit Zustimmung sämtlicher Minister sogleich der Ah. Sanktion unterzogen worden ist<note type="footnote" n="2">Auf Vortrag des Ministerrates v. <date when="1848-04-26">26. 4. 1848</date> ist mit Ah. Entschließung vom selben Tag das vorbereitete Kabinettschreiben an Pillersdorf ergangen, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 381/1848</bibl>.</note>, um womöglich noch heute, oder doch zuverlässig morgen, mittelst gedruckter Kundmachung zur allgemeinen Kenntnis gebracht werden zu können<note type="footnote" n="3">Das in Anm. 2 zit. Kabinettschreiben wurde als Kundmachung in Wien plakatiert; ein Druck der Kundmachung in <bibl type="secondary">
+                           <author>Kundmachungen</author> 1848–1850, März–Juni 1848, Fasz. April, Nr. 26</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_20_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Aufhebung der Robot in Galizien</head>
+                  <p>Der Minister des Inneren bemerkte ferner: infolge des Ministerratsbeschlusses vom 17. April, MRZ. 313<note type="footnote" n="4">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480417-P-0014.xml#top_1_1_14_1">MR. v. <date when="1848-04-17">17. 4. 1848</date>/I</ref>.</note>, sei an den Gouverneur von Galizien die Weisung ergangen, die Aufhebung der Robot (in thesi) gegen seinerzeit auszumittelnde Entschädigung der Berechtigten sogleich auszusprechen. Graf Stadion habe infolgedessen unverzüglich mittelst Zirkulare an die Kreisämter den Auftrag erlassen, zu verfügen, daß mit 15. Mai d. J. alle Robotleistung im Lande – mit Vorbehalt der Entschädigung – aufzuhören habe<note type="footnote" n="5">Das gedruckte Kabinettschreiben v. <date when="1848-04-22">22. 4. 1848</date> in <bibl type="archival">ZDIAUL., StH., Allg. 34563/1848</bibl>.</note>.</p>
+                  <p>
+                     <pb n="108" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s108.pdf"/>Nun sei ihm aber der infolge Ministerratsbeschlusses vom 20. April, Z. 340 MR.<note type="footnote" n="6">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480420-P-0016.xml#top_1_1_16_8">MR. v. <date when="1848-04-20">20. 4. 1848</date>/VIII</ref>.</note>, ausgefertigte Patentsentwurf zugekommen, wornach die Naturalfrone in drei Terminen, deren erster auf den 1. Juli festgesetzt worden, sukzessive aufzuhören haben sollte.</p>
+                  <p>Graf Stadion bittet nun zur Vermeidung einer unliebsamen Kompromittierung durch Zurücknahme seiner, wie er meinte, ganz im Geiste des Ministerratsbeschlusses vom 17. getroffenen Verfügung, die, wenn auch vielleicht nicht überall offiziell kundgemacht, doch sicher bekannt geworden ist, daß es von dem mittelst des späteren Ministerratsbeschlusses vom 20. angeordneten terminweisen Erlöschen der Robot abkommen möge, und seine, des Gouverneurs Verfügung, aufrecht erhalten werden möge<note type="footnote" n="7">Schreiben Stadions v. <date when="1848-04-23">23. 4. 1848</date>, <bibl type="archival">ZDIAUL., StH., Präs. 5397/1848</bibl>.</note>.</p>
+                  <p>Nachdem der Zweck der ganzen Maßregel nur der war, die Anhänglichkeit des untertänigen Landvolkes in Galizien an die österreichische Regierung zu befestigen und den Anhängern des Polentums dieses wichtige Mittel, das Landvolk für ihr Interesse zu gewinnen, zu entziehen, dieser Zweck aber durch die Verfügung des Gouverneurs nun mit einem Schlage erreicht ist, ferner in der Zeit vom 15. Mai bis 1. Juli nur wenig Feldarbeiten vorfallen, mithin auch wenig Robotleistungen verlangt werden, nach dem 1. Juli aber, wenn dem Patent vom 20. gemäß ein Teil der Roboten aufzuhören hätte, die Obrigkeiten ohnehin kaum mehr auf irgend welche Robotleistungen würden rechnen können, so glaubte der Minister, daß dem Antrage des Gouverneurs, es von den Bestimmungen des Patentes vom 20. April, so weit es mit der Verfügung des Grafen Stadion über den Beschluß vom 17. nicht vereinbarlich ist, abkommen zu lassen; die Genehmigung zu erteilen wäre.</p>
+                  <p>Hiermit waren alle Stimmen einverstanden; der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister Baron Krauß</rs>
+                     </hi> machte dabei nur diese (vom Minister des Inneren auch sogleich in seinem mitgebrachten Entwurfe eines Schreibens an den Grafen Stadion benützte) Bemerkung, daß die näheren Bestimmungen über die Aufhebung der Robot jedenfalls in der Form eines Ah. Patentes im Lande kundzumachen wären, weil der galizische Bauer den Kreisschreiben mißtraut und ein so wichtiges Geschenk nur aus den Händen des Monarchen und unter dessen Unterschrift als wirklich gegeben anerkennen würde<note type="footnote" n="8">Mit Schreiben Pillersdorfs v. <date when="1848-04-26">26. 4. 1848</date> wurde dieser Ministerratsbeschluß Stadion mitgeteilt, <quote>ebd. Präs. 5624/1848</quote>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480507-P-0030.xml#top_1_1_30_5">MR. v. <date when="1848-05-07">7. 5. 1848</date>/V</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_20_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Anstellung des Baron Metzburg im Ministerium des Inneren</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> bemerkte weiters, daß, nachdem die Hauptwühlereien für die Sache des Polentums von den in Wien befindlichen Polen ausgehen, welche sich der Studenten, der Emigration und der Presse zur Verbreitung ihrer Grundsätze bedienen, wogegen die Regierung in den Mitteln, solchem Treiben Einhalt zu tun, sehr beschränkt ist, es sehr wünschenswert erscheine, hier einen gediegenden Mann zu gewinnen, der Fähigkeit und Zeit hätte, die Regierung in dieser Beziehung zu unterstützen. Bei der seiner Leitung anvertrauten Hofkanzlei befinde sich kein hiezu geeignetes Individuum; der galizische Landesreferent<note type="footnote" n="9">Das war Wenzel Ritter v. Zaleski.</note>, obwohl gut gesinnt, befinde sich immerhin in einer nicht ganz unbefangenen Stellung und der nächste nach ihm besitze durchaus nicht jene Eigenschaften, die zu dem angedeuteten Zwecke erforderlich sind.</p>
+                  <p>
+                     <pb n="109" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s109.pdf"/>Diese Eigenschaften nun glaube der Minister in dem galizischen Gubernialsekretär, Baron Metzburg, dem Überbringer der oben besprochenen Depesche des Grafen Stadion<note type="footnote" n="10">Siehe dazu Anm. 7.</note>, gefunden zu haben, und da er in diesem Urteile vom Finanzminister bestätigt wurde, freilich mit dem Zweifel, ob der Gouverneur den Baron Metzburg werde entbehren können, so gedächte er den Grafen Stadion zur Äußerung aufzufordern, ob es ihm erwünscht sei, ein in dem angedeuteten Sinne für die Regierung wirkendes Organ in Wien bestellt zu sehen, und ob er hiezu den Baron Metzburg ohne Nachteil für wichtigere Zwecke zur Disposition des Ministers stellen könne<note type="footnote" n="11">Eine Korrespondenz über die Verwendung Metzburgs zwischen Pillersdorf und Stadion konnte weder unter den Beständen des <bibl type="archival">AVA., IM., Präs.</bibl>, noch unter denen des <bibl type="archival">ZDIAUL., StH., Präs.</bibl>, gefunden werden. Die nächste aktenmäßig belegte Information über Metzburg besagt, daß er sich im März 1849 in Mailand aufhielt, siehe dazu <ref type="protocol-link" target="toc.html?collection=editions#myTable=f18480319" ana="prot0 top6">MR. v. <date when="1848-03-19">19. 3. 1848</date>/VI</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_20_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Konstitutionskundmachung in Brünn</head>
+                  <p>Der Minister bringt weiters zur Kenntnis des Ministerrates eine telegraphische Depesche aus Brünn über den Enthusiasm[us], den die Publizierung der Konstitution unter der dortigen Bevölkerung erregt hat<note type="footnote" n="12">Im Protokollbuch des mährischen Statthaltereipräsidiums findet sich folgende Eintragung v. <date when="1848-04-25">25. 4. 1848</date>: <quote>Telegraphische Depesche an Se. Exzellenz den Herrn Minister des Inneren, daß die Konstitution in Brünn proklamiert und mit enthusiastischem Jubel aufgenommen wurde</quote>, mit der Anmerkung: <quote>ad Norm.</quote>; der Akt <bibl type="archival">MZA, Gubernium Präs. 2237/1848</bibl>, selbst ist in diesem Bestand nicht auffindbar.</note>, – dann eine mündliche Nachricht aus Prag über das Eintreffen des diesfälligen Patentes daselbst.</p>
+                  <p>Hierüber wäre nichts zu verfügen.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_20_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Mißliche Lage der galizischen Gerichtsbehörden</head>
+                  <p>Über einen weiteren Polizeibericht aus Lemberg über die dortige ziemlich beruhigende Stimmung<note type="footnote" n="13">Dieser Polizeibericht konnte weder unter den Beständen des <quote>ZDIAUL., StH., Präs.</quote>, noch in denen des <quote>AVA., IM., Präs.</quote>, gefunden werden.</note> fand sich der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> zu der Bemerkung über die mißliche Lage der galizischen Gerichtsbehörden, die fast alle ihre Präsidenten verloren haben, veranlaßt und</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_20_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Baldige Erledigung der galizischen Petition</head>
+                  <p>der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> knüpfte folgende Bemerkungen daran: 1. Es sei zu wünschen, daß der noch immer in Wien anwesenden Deputation aus Galizien über ihre jüngst Ew. Majestät überreichte Petition<note type="footnote" n="14">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480405-P-0004.xml#top_1_1_4_4">MR. v. <date when="1848-04-05">5. 4. 1848</date>/IV</ref>.</note> eine Erledigung hinausgegeben werde, um ihr den Vorwand zum längeren – gewiß nicht gerne gesehenen – Verweilen in Wien zu benehmen. Hierüber erinnerte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi>, er habe über diese Petition vom Grafen Stadion das Gutachten abverlangt, welches bisher noch nicht erstattet worden<note type="footnote" n="15">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480408-P-0007.xml#top_1_1_7_3">MR. v. <date when="1848-04-08">8. 4. 1848</date>/III</ref>. Anm. 7.</note>, wahrscheinlich, weil der Gouverneur den Zusammentritt des auf den 26. d. [M.] einberufenen Provinziallandtages<note type="footnote" n="16">Mit Schreiben v. <date when="1848-04-02">2. 4. 1848</date> hatte Pillersdorf Stadion darüber informiert, daß der Kaiser mit Ah. E. v. <date when="1848-04-02">2. 4. 1848</date> die Einberufung des galizischen Landtags auf den <date when="1848-04-26">26. 4. 1848</date> genehmigt hatte, und ersuchte den Govuerneur, alle notwendigen Maßnahmen zu veranlassen, <bibl type="archival">ZDIAUL., StH., Präs. 4467/1848</bibl>. Mit Zirkularschreiben an das Gubernium, alle Kreishauptleute, Gołuchowski und alle Domkapitel des lateinischen, griechischen und armenischen Ritus v. <date when="1848-04-11">11. 4. 1848</date> teilte Stadion diesen Termin mit, <quote>ebd., Präs. 4749/1848</quote>; siehe dazu <bibl type="secondary">
+                           <author>Hugelmann</author>, Landtage 2, 241 f., bes. Anm. 3</bibl>.</note>, wo die Gegenstände jener Petition zur Sprache kommen dürften, abwarten wollte.</p>
+                  <p>
+                     <pb n="110" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s110.pdf"/>Ohne Vernehmung des Gouverneurs glaubte der Minister eine Erledigung jener Petition nicht hinausgeben zu können, was er denn auch der Deputation selbst – über deren wiederholtes Andringen – eröffnet und nur bezüglich des einen Punktes wegen Anerkennung der polnischen Nationalität durch Gleichstellung der Landes- mit der deutschen Sprache die Versicherung beigefügt habe, daß die Regierung derselben sich im Prinzipe nicht widersetzen werde<note type="footnote" n="17">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480503-P-0026.xml#top_1_1_26_5">MR. v. <date when="1848-05-03">3. 5. 1848</date>/V</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_20_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Errichtung der Nationalgarde in galizischen Landgemeinden</head>
+                  <p>Die zweite Bemerkung des Baron Krauß bezog sich auf die Bestimmung im Gesetze über die Nationalgarde, wornach nur Gemeinden mit einer Bevölkerung von 1000 Seelen und darüber zur Errichtung einer Nationalgarde berechtigt sind<note type="footnote" n="18">Das bestimmte der II. Abschnitt/§ 9 des Organisationsentwurfes der Nationalgarde v. <date when="1848-04-08">8. 4. 1848</date>, abgedruckt bei <bibl type="secondary">
+                           <author>Peyer</author>, Wiener-Chronik 57</bibl>.</note>.</p>
+                  <p>Solcher Gemeinden – sagte <hi rend="#letterspaced">
+                        <rs type="person">Baron Krauß</rs>
+                     </hi> – gibt es auf dem flachen Lande in Galizien nur wenige, und wo deren sind, besteht die Mehrzahl der Bewohner aus Kleinhäuslern und unbestifteten Inleuten. Bei Aufrechterhaltung dieser gesetzlichen Beschränkung würde der größte Teil der besser bestifteten und der Regierung ergebenen Untertanen von der Teilnahme an der Nationalgarde ausgeschlossen und diese wesentliche Stütze der Regierung sehr geschwächt werden. Der Gouverneur von Galizien dürfte daher ermächtigt werden, auch in Landgemeinden von weniger als 1000 Seelen, wo er es angemessen fände, dieses Institut ins Leben zu rufen.</p>
+                  <p>Da das Gesetz über die Nationalgarde nur ein provisorisches ist und Änderungen zuläßt, so erklärte sich der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> bereit, von dieser Andeutung den geeigneten Gebrauch zu machen<note type="footnote" n="19">Dazu kam es offenbar nicht. Denn noch in seiner Weisung (K.) an den Tarnopoler Kreisvorsteher v. <date when="1848-05-20">20. 5. 1848</date> erwähnt Stadion ausdrücklich die 1000-Einwohner-Bestimmung, <bibl type="archival">ZDIAUL, StH., Präs. 6633/1848</bibl>, und in seinem Schreiben (K.) an den Przemysler Kreisvorsteher v. <date when="1848-06-21">21. 6. 1848</date> weist das galizische Guberium darauf hin, daß die definitive Organisierung der Nationalgarde dem Reichstag vorbehalten ist, man sich somit wieder an das provisorische Nationalgardegesetz v. <date when="1848-04-08">8. 4. 1848</date> halten müsse, <quote>ebd., Präs. 8159/1848</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_20_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Behandlung der Krakauer Deputation</head>
+                  <p>Derselbe teilte weiters eine ihm vom Kriegsminister abgetretene Depesche aus Krakau mit, worin die beabsichtigte Errichtung einer polnischen Legion und die Absendung einer Deputation hierwegen nach Wien mit dem Antrage gemeldet wird, dahin zu wirken, daß dieser Deputation der Zutritt zu Ew. Majestät nicht gestattet werde<note type="footnote" n="20">Die entsprechenden Akten <bibl type="archival">KA., HKR., KM., Präs. 528 und 766, beide ex 1848</bibl>, sind skartiert worden. Die Deputation war am <date when="1848-04-25">25. 4. 1848</date> von Krakau abgegangen, siehe dazu <bibl type="secondary">
+                           <author>Hausler</author>, Revolution von 1848, 122</bibl>.</note>.</p>
+                  <p>Nach dem Grundsatze, daß solcher nur den Ständen oder anderen besonders ausgezeichneten Korporationen zu bewilligen sei, versicherte der Minister Baron Pillersdorf auch die hier in Rede stehende Deputation behandeln zu wollen.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_20_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Englische Schiffe in Triest; englische Erklärung über die Blockade von Venedig; Schutz österreichischer Schiffe durch eine große Seemacht</head>
+                  <p>Zwei Berichte des Gouverneurs von Triest, woraus hervorgeht, daß die Ankunft einer englischen Fregatte und einiger kleiner Fahrzeuge im dortigen Hafen bevorstehe, und daß man eine offizielle Erklärung von Seite der großbritannischen Regierung zugunsten Triests und der eingeleiteten Blockade von Venedig erwarte, endlich daß <pb n="111" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s111.pdf"/>man bei der Schwäche der k. k. Kriegsmarine und der schlechten Beschaffenheit der k. k. Schiffe den – auch vom Gouverneur gebilligten – Wunsch äußere, die Handelsmarine Österreichs unter den Schutz einer der großen Seemächte zu stellen<note type="footnote" n="21">Die entsprechenden Berichte <bibl type="archival">KA., HKR., KM, Präs. 776, 777 und 778. alle ex 1848</bibl>, sind skartiert worden.</note>, trat der Minister des Inneren an den vorsitzenden Minister der auswärtigen Angelegenheiten Grafen Ficquelmont zur geeigneten Verfügung ab.</p>
+                  <p>Graf Ficquelmont erklärte, diese Depesche dahin beantragen zu wollen, daß, nachdem Triest dermalen armiert und ein offizielles Aktenstück vorhanden ist, welches die Absicht der sardinischen Regierung, Österreich zur See nicht anzugreifen<note type="footnote" n="22">Bericht Brenners an Ficquelmont aus München v. <date when="1848-04-05">5. 4. 1848</date>, <bibl type="archival">HHSTA., StK., Bayern 179, Fasz. Berichte 1848, fol. 181 – 187</bibl>, anbei auch die diesbezüglöiche schriftliche Erklärung der piemontesischen Regierung. Ficquelmontübermittelte diese indirekte Zusage Sardiniens, keinen Seekrieg anzufangen, mit Schreiben v. <date when="1848-04-08">8. 4. 1848</date> an Salm, <bibl type="archival">ebd., StK., Provinzen, Küstenland 4, Fasz. 2, fol. 26f</bibl>.</note>, erklärt, für den Fall eines wirklichen Angriffes aber auf den Beistand der britischen Flotte nicht zu rechnen sein dürfte, der Gouverneur in seinen im Sinne obiger Depeschen etwa beabsichtigten Einleitungen nicht zu weit gehen möge, zumal da, wie die Erfahrung lehrt, die britischen Kriegsschiffe überhaupt vor fremden Häfen nie zum Vorteile derselben, sondern immer nur im Interesse ihrer eigenen Regierung oder deren Angehörigen erschienen sind<note type="footnote" n="23">Fortsetzung in <ref type="protocol-link" target="MRP-1-1-01-0-18480521-P-0047.xml#top_1_1_47_3">MR. v. <date when="1848-05-21">21. 5. 1848</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_20_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Die k. k. Reitschule als provisorisches Versammlungslokal des Reichstages</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> erklärte über die vom Oberststallmeister im Vortrage vom <date when="1848-04-25">25. April 1848</date>, KZ. 1514<note type="footnote" n="24">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480420-P-0016.xml#top_1_1_16_5">MR. v. <date when="1848-04-20">20. 4. 1848</date>/V</ref>. Auf das Kabinettschreiben v. <date when="1848-04-23">23. 4. 1848</date> hatte Graf Rudolf Wrbna mit Vortrag v. <date when="1848-04-25">25. 4. 1848</date> Bedenken geäußert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 373/1848</bibl>.</note>, gestellte Anfrage über die Dauer der Verwendung der k. k. Winterreitschule zu den Sitzungen des künftigen Reichstages, daß solche jedenfalls auf das laufende und das nächste Jahr sich erstrecken werde. Graf Ficquelmont meinte zwar, dies dürfte von der Bestimmung des Reichstages selbst abhängen.</p>
+                  <p>Über die Bemerkung des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzministers</rs>
+                     </hi> aber, daß, wenn der heurige Reichstag über sein künftiges Versammlungslokale definitiv beschließt, die Herstellung desselben kaum vor zwei Jahren bewerkstelligt werden kann, vereinigten sich alle Stimmführer dahin, daß die Benützung der k. k. Reitschule als provisorisches Versammlungslokale des Reichstages für drei Jahre anzusprechen wäre.</p>
+                  <p>Der diesem Beschlusse entsprechende Resolutionsentwurf zur KZ. 1514 folgt weitet unten<note type="footnote" n="25">Mit Ah. E. v. <date when="1848-04-30">30. 4. 1848</date> wurde ganz im Sinne des Ministerratsbeschlusses auf den Vortrag Pillersdorfs v. <date when="1848-04-25">25. 4. 1848</date> entschieden, <quote>ebd., MRZ. 391/1848</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_20_11" n="11">
+                  <head type="regest">
+                     <label>
+                        <num>XI. </num>
+                     </label>Unzulässigkeit der Bekanntmachung des Kabinettsschreibens über das Bewahren von Amtsgeheimnissen</head>
+                  <p>Der Finanzminister bemerkte, er habe von seinem Amtsvorgänger das Ah. Kabinettschreiben vom <date when="1848-03-19">19. März 1848</date>
+                     <note type="footnote" n="26">Dieses Kabinettschreiben war an die Chefs sämtlicher Hofteilen und den Obersthofmeisterstellvertreter gerichtet, <bibl type="archival">HHSTA., MKA., MZ. 713/1848</bibl>, der entsprechende Akt im Finanzministerium <bibl type="archival">FA., PP. 2481/1848</bibl>.</note>, womit den lf. Beamten die Beobachtung des Amtsgeheimnisses eingeschärft wird, unerledigt übernommen, nachdem der Entwurf <pb n="112" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s112.pdf"/>der diesfälligen Expedition von dem Vizepräsidenten v. Mayer wegen des Bedenkens der Unvereinbarlichkeit mit der Ah. bewilligten Preßfreiheit unvollzogen gelassen worden<note type="footnote" n="27">Die Entwürfe der Dekrete, Schreiben, Noten und Präsidialerinnerungen v. <date when="1848-03-31">31. 3. 1848</date> an die entsprechenden Stellen sind in dem in Anm. 26 zit. FA-Akt alle durchgestrichen.</note>. Er glaube sonach vor allem anfragen zu müssen, wie sich diesfalls bei den übrigen Hofstellen benommen worden sei?</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> erklärte, er habe sich nicht getraut, den Inhalt dieses Ah. Kabinettschreibens bekannt zu machen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi>: es sei von der Obersten Justizstelle dem Präsidio des niederösterreichischen Appellationsgerichtes eröffnet, von diesem aber auf seine (des Ministers als damaligen zweiten Appellationsgerichtspräsidenten) Veranlassung nicht weiter intimiert worden.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">vorsitzende Minister der auswärtigen Angelegenheiten</rs>
+                     </hi> endlich bemerkte, er habe das Ah. Kabinettschreiben nur im Inneren der Staatskanzlei zirkulieren lassen.</p>
+                  <p>Unter solchen Umständen erachtete der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> diese Ah. Weisung lediglich mit der Bemerkung, daß der Zeitpunkt ihrer allfälligen Bekanntmachung wahrzunehmen sein werde, um so mehr ad acta legen zu dürfen, als die darin enthaltene Bestimmung, daß ein Beamter bei Verletzung des Amtsgeheimnisses ipso facto des Dienstes verlustig sein solle, sogar über die bisher hierwegen bestandenen Vorschriften hinausgeht<note type="footnote" n="28">Krauß fügte dem in Anm. 26 zit. Akt bei, <quote>eine Bekanntmachung bei der Hofstelle und den untergeordneten Behörden dürfte hingegen erst dann erfolgen, wenn sich Vorfälle ergeben sollten, welche die Verfügung notwendig machen. Bis dahin ist das Ah. Kabinettschreiben aufzubewahren</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_20_12" n="12">
+                  <head type="regest">
+                     <label>
+                        <num>XII. </num>
+                     </label>Vorstellung Johann Ludwig Freiherrn Dercsényis v. Dercsén gegen das Kabinettsschreiben über das Bewahren von Amtsgeheimnissen</head>
+                  <p>Hiermit in Verbindung steht eine Eingabe des Hofrates der allgemeinen Hofkammer, Freiherrn v. Dercsényi, welche eben auch eine Vorstellung gegen dieses Ah. Kabinettschreiben und – für den Fall der Nichtberücksichtigung derselben – die Bitte um seine Pensionierung enthält<note type="footnote" n="29">Schreiben Dercsényis an Pillersdorf v. <date when="1848-04-02">2. 4. 1848</date>, <bibl type="archival">FA., FM., Präs. 307/1848</bibl>. Darin wandte sich der offenbar liberale Rat der allgmeinen Hofkammer vehement gegen die beim Volke unbeliebte <quote>Geheimniskrämerei</quote> und fand die Befolgung des Kabinettschreibens v. <date when="1848-03-19">19. 3. 1848</date> mit seiner Dienstauffassung unvereinbar und bat um eine Klarstellung oder seine Pensionierung. <quote>Jedenfalls</quote>, so Dercsényi, <quote>möge man diese Sache rasch erledigen</quote>. Pillersdorf sandte diese Eingabe mit Schreiben v. <date when="1848-04-06">6. 4. 1848</date> an Krauß mit der Bitte um Erledigung, <quote>ebd</quote>.</note>.</p>
+                  <p>Was die Vorstellung betrifft, so gedenkt der Finanzminister dieselbe durch Hinweisung auf den § 19 der Konstitutionsurkunde<note type="footnote" n="30">Der § 19 der Pillersdorfschen Verfassung v. <date when="1848-04-25">25. 4. 1848</date> lautet: <quote>Die Freiheit der Rede und Presse ist nach vollkommener Auflassung der Zensur durch die Verfassungsurkunde gesichert. Die Bestrafung der Mißbräuche wird durch ein von dem ersten Reichstage zu erlassendes Gesetz geregelt werden</quote>, <bibl type="secondary">
+                           <author>Bernatzik</author>, Verfassungsgesetze 105</bibl>.</note> mit dem Bemerken zu erledigen, daß das fragliche Ah. Kabinettschreiben nicht kundgemacht worden, über seine Bitte um Pensionierung aber ihm zu bedeuten, er habe den Zeitpunkt abzuwarten, wann über die Behandlung der Beamten der ungarischen Abteilung der Hofkammer entschieden sein werde<note type="footnote" n="31">Mit Schreiben (K.) v. <date when="1848-04-28">28. 4. 1848</date> an Dercsényi wies Krauß das Pensionsgesuch zurück und teilte ihm den Ministerratsbeschluß mit, <quote>ebd</quote>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480504-P-0027.xml#top_1_1_27_4">MR. v. <date when="1848-05-04">4. 5. 1848</date>/IV</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_20_13" n="13">
+                  <head type="regest">
+                     <label>
+                        <num>XIII. </num>
+                     </label>Rücktritt des Lemberger katholischen Erzbischofs</head>
+                  <p>Sodann wurde unter der KZ. 1711<note type="footnote" n="32">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 362/1848</bibl>.</note> ein Vortrag des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministers des Inneren</rs>
+                     </hi> vom <date when="1848-04-22">22. April 1848</date> über die Resignation des ernannten Fürsterzbischofs von Lemberg Václavíček<note type="footnote" n="33">Wenzel Wilhelm Ritter v. Václavíćek war 1848 zunächst zum Propst des Prager Kapitels und unmittelbar darauf zum Erzbischof in Lemberg ernannt worden; siehe dazu <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 49, 184 ff</bibl>. Der in Anm. 32 zit. Vortrag wurde mit Ah. E. v. <date when="1848-04-30">30. 4. 1848</date> resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 391/1848</bibl>.</note>,</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_20_14" n="14">
+                  <head type="regest">
+                     <label>
+                        <num>XIV. </num>
+                     </label>Rücktritt Graf Clemens Brandis' als Landeshauptmann von Tirol</head>
+                  <p>dann unter der KZ. 1516<note type="footnote" n="34">
+                        <quote>Ebd., MRZ. 378/1848</quote>; siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480420-P-0016.xml#top_1_1_16_10">MR. v. <date when="1848-04-20">20. 4. 1848</date>/X</ref>.</note> ein Vortrag eben desselben vom 24. April über die Resignation des Grafen Brandis als Landeshauptmann von Tirol<note type="footnote" n="35">Zu Clemens Franz Graf Brandis siehe <bibl type="secondary">
+                           <title>Österreichisches Biographisches Lexikon</title> 1, 107</bibl>; der in Anm. 34 zit. Vortrag wurde mit Ah. E. v. <date when="1848-04-30">30. 4. 1848</date> resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 391/1848</bibl>.</note> zur Kenntnis des Ministerrates gebracht, welche Resignationen anzunehmen beschlossen wurde<note type="footnote" n="36">Bereits 1847 war für den <date when="1848-05-03">3. 5. 1848</date> ein Ausschußkongreß anberaumt worden, <bibl type="secondary">
+                           <author>Hugelmann</author>, Landtage 2, 90</bibl>; Brandis, der eine evolutionäre Entwicklung des Verfassungslebens propagierte, war als Landeshauptmann zurückgetreten, um ein Zeichen zu setzen und die von ihm vorgeschlagene Vermehrung der Vertreter des Bauern- und Bürgentandes in einem neu zu wählenden Landtag zu ermöglichen. Mit Erlaß v. <date when="1848-04-29">29. 4. 1848</date> wurde die neue Verfassung sanktioniert und Neuwahlen angeordnet, <bibl type="secondary">
+                           <title>Bote für Tirol und Vorarlberg</title> 1848, 232</bibl>; nach den am 3. 5. ausgeschriebenen Wahlen trat der Landtag am <date when="1848-06-10">10. 6. 1848</date> zusammen, siehe dazu <bibl type="secondary">
+                           <author>Bacher</author>, Tiroler Provinziallandtag</bibl>; <bibl type="secondary">
+                           <author>Bundesmann</author>, Landeschefs 25–30</bibl>; <bibl type="secondary">
+                           <author>Schober</author>, Tiroler Landtag 103–113</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_20_15" n="15">
+                  <head type="regest">
+                     <label>
+                        <num>XV. </num>
+                     </label>Pferdeankauf für das Isonzokorps</head>
+                  <p>Schließlich wird bemerkt, daß die sub MZ. 368 angesprochene Dotation zum Ankauf von Artilleriepferden bewilligt und der Finanzminister hievon brevi manu in die Kenntnis gesetzt worden sei<note type="footnote" n="37">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480410-P-0009.xml#top_1_1_9_7">MR. v. <date when="1848-04-09">9. 4. 1848</date>/VII</ref>.</note>.</p>
+                  <p>Die Entwürfe zu den Erledigungen der hier berufenen und angeschlossenen Vorträge werden Ew. Majestät hier au. gegenwärtig gehalten.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1848-04-29">29. April 1848</date>. Ficquelmont.</dateline>
+                  <seg type="other">Ges. 29. April. Franz Karl. Vidi.</seg>
+                  <seg type="other">Ferdinand. Wien, den <date when="1848-04-30">30. April 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

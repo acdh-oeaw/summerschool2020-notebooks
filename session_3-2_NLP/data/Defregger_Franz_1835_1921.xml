@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Eintrag xmlns="http://www.biographien.ac.at" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.biographien.ac.at https://aspix2.lgbs.at/GIDEON_NG_OEBL/userdefined/Biografien/XML/XSD/OEBL-Bio-V1.xsd" Nummer="Defregger_Franz_1835_1921.xml" Version="01" pnd="118524283" eoebl_id="1417167">
+  <Lexikonartikel>
+    <Schlagwort>
+      <Hauptbezeichnung>Defregger</Hauptbezeichnung>
+      <Nebenbezeichnung Type="Vorname">Franz von</Nebenbezeichnung>
+    </Schlagwort>
+    <Sortierung_Nachname>Defregger</Sortierung_Nachname>
+    <Sortierung_Vorname>Franz</Sortierung_Vorname>
+    <Schlagwort_Nachname>Defregger</Schlagwort_Nachname>
+    <Schlagwort_Vorname>Franz</Schlagwort_Vorname>
+    <Vita>
+      <Geburt Metadatum="1835" TT="30" MM="4">(1835-<Geographischer_Begriff OrtAlt="Stronach (Lienz)" OrtNeu="?" LandAlt="Tirol" LandNeu="Österreich/Tirol">Stronach (Lienz) (?, Tirol)</Geographischer_Begriff></Geburt>
+      <Tod Metadatum="1921" TT="2" MM="1">1921)<Geographischer_Begriff OrtAlt="München" OrtNeu="München" LandAlt="Deutsches Reich" LandNeu="Deutschland">München, Deutsches Reich (Deutschland)</Geographischer_Begriff></Tod>
+      <Beruf Berufsgruppe="Bildende und angewandte Kunst">Maler</Beruf>
+    </Vita>
+    <Geschlecht Type="m" />
+    <Kurzdefinition>Defregger Franz von, Maler. * Stronach b. Lienz, 30. 4. 1835; † München, 2. 1. 1921.</Kurzdefinition>
+    <Haupttext>Sohn eines Bauern, zeigte früh Interesse für Schnitzen und Zeichnen, aber erst nach dem Tode des Vaters gab er den Hof auf und ging 1860 nach Innsbruck, um bei Stolz die Bildschnitzerei zu erlernen. Auf dessen Rat wandte er sich der Malerei zu, ging 1862 an die Akad. in München, 1863–65 nach Paris, dann nach Tirol zurück, 1867 wieder nach München, wo er in das Atelier Pilotys eintrat, der den entscheidenden Einfluß auf ihn ausübte. 1878 Prof. an der Münchner Akad., 1883 geadelt. D., bedeutend als Landschafts- und Historienmaler, ist außerdem einer der charakteristischesten und letzten Vertreter der naturalistisch betonten bäuerlichen Genremalerei.
+</Haupttext>
+    <Werke>W.: Der verwundete Jäger, 1867; Speckbacher und sein Sohn, 1868; Ringkampf in Tirol, 1869; Das letzte Aufgebot 1809, 1872; Zitherspieler auf der Alm, 1876; Heimkehr der Sieger, 1876; Abschied der Jäger von der Sennerin, 1877; Salontiroler, 1882; etc.
+</Werke>
+    <Literatur>L.: N.Fr.Pr. vom 29. 4. 1915; R.P. vom 30. 4. und 29. 5. 1915; A.Pr. vom 3. 1. 1921; M.Pr. vom 13. 1. 1921; F.H. Meissner, F.v.D., 1900; C. A. Rosenberg, D., 1897, 3. Aufl. 1911; H. Hammer, F.D., 1940; Katalog der D.-Ausstellung in Wien, 1901; Der Gral 10, 8; Thieme-Becker; Biogr.Jb.; Wurzbach; Wer ist’s?; Enc.It.
+</Literatur>
+    <Autor />
+    <PubInfo Reihe="ÖBL 1815-1950" Band="1" Lieferung="2" Seite="174" Jahr="1954" Monat="" Tag="">ÖBL 1815-1950, Bd. 1 (Lfg. 2, 1954), S. 174</PubInfo>
+  </Lexikonartikel>
+</Eintrag>
