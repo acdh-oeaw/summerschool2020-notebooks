@@ -9,6 +9,10 @@ verify_ssl = true
 spacy = "==2.3.1"
 lxml = "*"
 jupyter = "*"
+rdflib = "*"
+pandas = "*"
+ipyleaflet = "*"
+sparqlwrapper = "*"
 
 [requires]
 python_version = "3.6"
